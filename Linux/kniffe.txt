@@ -1,0 +1,13 @@
+Starting an application interrupts other app's sound
+
+If you have trouble with some applications (such as TeamSpeak or Mumble) interrupting sound output of already running applications (such as Deadbeaf), you can solve this by commenting out the line load-module module-role-cork in /etc/pulse/default.pa like shown below:
+
+/etc/pulse/default.pa
+
+### Cork music/video streams when a phone stream is active
+# load-module module-role-cork
+
+Then restart pulseaudo by using your normal user account with
+
+$ pulseaudio -k
+$ pulseaudio --start
