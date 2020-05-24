@@ -1,0 +1,160 @@
+{
+    "spectrum": {
+        "show": "true",
+        "n-points": "150",
+        "height": "100",
+        "use-custom-color": "false",
+        "fill": "false",
+        "scale": "1",
+        "exponent": "1",
+        "sampling-freq": "10",
+        "color": [
+            "1",
+            "1",
+            "1",
+            "1"
+        ]
+    },
+    "output": {
+        "blacklist": "",
+        "plugins_order": [
+            "equalizer"
+        ],
+        "equalizer": {
+            "state": "true",
+            "num-bands": "10",
+            "input-gain": "-6.9",
+            "output-gain": "0",
+            "split-channels": "false",
+            "left": {
+                "band0": {
+                    "gain": "6.2",
+                    "frequency": "30",
+                    "q": "0.43",
+                    "type": "peak"
+                },
+                "band1": {
+                    "gain": "1.0",
+                    "frequency": "699",
+                    "q": "2",
+                    "type": "peak"
+                },
+                "band2": {
+                    "gain": "-1.7",
+                    "frequency": "2924",
+                    "q": "4.11",
+                    "type": "peak"
+                },
+                "band3": {
+                    "gain": "-6.2",
+                    "frequency": "6031",
+                    "q": "5.05",
+                    "type": "peak"
+                },
+                "band4": {
+                    "gain": "2.2",
+                    "frequency": "9825",
+                    "q": "4.08",
+                    "type": "peak"
+                },
+                "band5": {
+                    "gain": "1.3",
+                    "frequency": "83",
+                    "q": "4.24",
+                    "type": "peak"
+                },
+                "band6": {
+                    "gain": "-1.2",
+                    "frequency": "209",
+                    "q": "1.54",
+                    "type": "peak"
+                },
+                "band7": {
+                    "gain": "0.2",
+                    "frequency": "2842",
+                    "q": "0.1",
+                    "type": "peak"
+                },
+                "band8": {
+                    "gain": "2.7",
+                    "frequency": "12443",
+                    "q": "1.29",
+                    "type": "peak"
+                },
+                "band9": {
+                    "gain": "-11.8",
+                    "frequency": "19698",
+                    "q": "0.46",
+                    "type": "peak"
+                }
+            },
+            
+            
+            
+            
+            
+            "right": {
+                "band0": {
+                    "gain": "6.2",
+                    "frequency": "30",
+                    "q": "0.43",
+                    "type": "peak"
+                },
+                "band1": {
+                    "gain": "1.0",
+                    "frequency": "699",
+                    "q": "2",
+                    "type": "peak"
+                },
+                "band2": {
+                    "gain": "-1.7",
+                    "frequency": "2924",
+                    "q": "4.11",
+                    "type": "peak"
+                },
+                "band3": {
+                    "gain": "-6.2",
+                    "frequency": "6031",
+                    "q": "5.05",
+                    "type": "peak"
+                },
+                "band4": {
+                    "gain": "2.2",
+                    "frequency": "9825",
+                    "q": "4.08",
+                    "type": "peak"
+                },
+                "band5": {
+                    "gain": "1.3",
+                    "frequency": "83",
+                    "q": "4.24",
+                    "type": "peak"
+                },
+                "band6": {
+                    "gain": "-1.2",
+                    "frequency": "209",
+                    "q": "1.54",
+                    "type": "peak"
+                },
+                "band7": {
+                    "gain": "0.2",
+                    "frequency": "2842",
+                    "q": "0.1",
+                    "type": "peak"
+                },
+                "band8": {
+                    "gain": "2.7",
+                    "frequency": "12443",
+                    "q": "1.29",
+                    "type": "peak"
+                },
+                "band9": {
+                    "gain": "-11.8",
+                    "frequency": "19698",
+                    "q": "0.46",
+                    "type": "peak"
+                }
+            }
+        }
+    }
+}
