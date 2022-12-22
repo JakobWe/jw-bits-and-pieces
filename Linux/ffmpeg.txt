@@ -1,0 +1,1 @@
+for %i in (*.m4a) do ffmpeg -i "%i" -map_metadata 0 -id3v2_version 3 -acodec mp3 "mp3/%~ni.mp3"
