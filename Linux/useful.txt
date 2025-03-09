@@ -1,0 +1,4 @@
+btop
+wavemon
+lftop
+https://www.brendangregg.com/perf.html
